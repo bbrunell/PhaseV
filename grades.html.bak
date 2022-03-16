@@ -34,7 +34,7 @@
 </div>
 
 <div id="content">
-	<b><div class ="myGradesTitle" style = "float: left; font-size: 30pt;" > My Grades</div></b>
+	<b><div class ="myGradesTitle" style = "text-align: left; font-size: 30pt; width: 100%;" > My Grades</div></b>
 </div>
 </body>
 </html>

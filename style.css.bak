@@ -1,6 +1,6 @@
 html,body{
 	padding: 0;
-	margin: 0;
+	margin: 15;
 	font-family: Arial;
 	background-color: #3b3b3b;
 }

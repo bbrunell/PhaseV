@@ -21,8 +21,8 @@
 	<div id="menu">
 		<div id="menuItems">
 			<a href="index.html"><span class="menuItem">Courses</span></a>
-			<a href="updates.html"><span class="menuItem">Updates<span class="notification">1</span></span></a>
-			<b><a href="grades.html"><span class="menuItem">Grades<span class="notification">1</span></span></a></b>
+			<b><a href="updates.html"><span class="menuItem">Updates<span class="notification">1</span></span></a></b>
+			<a href="grades.html"><span class="menuItem">Grades<span class="notification">1</span></span></a>
 			<a href="calendar.html"><span class="menuItem">Calendar</span></a>
 			<a href="https://bb.umflint.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_122_1" target="_blank"><span class="menuItem">Help</span></a>
 		</div>
@@ -34,7 +34,16 @@
 </div>
 
 <div id="content">
-	<b><div class ="myGradesTitle" style = "float: left; font-size: 30pt;" > My Grades</div></b>
+		<div class="boxItemTitle">Updates</div>
+
+		<input type="text" id="name" placeholder="enter">
+	<br>
+	<button id="btn" onclick="fn()">click</button>
+	<div>
+    <p id="result"></p>
+	</div>
+	<button onclick="clearContent()">clear</button>
+		</div>
 </div>
 </body>
 </html>
