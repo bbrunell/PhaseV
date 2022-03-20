@@ -150,6 +150,18 @@ label {
 	left: 835px;
 	width: 475px;
 }
+#updates{
+	float: left;
+	padding-left: 250px;
+	color: #FFFFFF;
+}
+
+#x{
+	float: left;
+	padding-left: 100px;
+	padding-top: 64px;
+	
+}
 
 
 .overflow-hidden{
