@@ -40,7 +40,22 @@
 </div>
 
 <div id="calendar">
-  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&ctz=America%2FNew_York&showTitle=1&showPrint=0&showTabs=0&showTz=0&title=John%20Smith's%20Personal%20Calendar&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679&color=%234285F4" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	<div id = "googlecalendar">
+		<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&ctz=America%2FNew_York&showTitle=1&showPrint=0&showTabs=0&showTz=0&title=John%20Smith's%20Personal%20Calendar&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679&color=%234285F4" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+	<div id="addevent">
+		<h3>Add Event to Calendar</h3>
+		<form action="/action_page.php">
+  		<label for="fname">Event name:</label><br>
+  		<input type="text" id="Eventname" name="Eventname" value=""><br>
+  		<label for="EventDate">Event date:</label><br>
+  		<input type="text" id="EventDate" name="EventDate" value=""><br><br>
+			<label for="Description">Description:</label><br>
+			<input type="text" id="Description" name="Description" value=""><br><br>
+  		<input type="submit" value="Submit">
+		</form>
+	</div>
+
 </div>
 
 <div id="content">
