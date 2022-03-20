@@ -116,6 +116,9 @@ label {
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
 }
+#MyCourses{
+	line-height: 200%;
+}
 #contentTitle{
 	font-size: 18pt;
 	font-weight: bold;
@@ -160,7 +163,7 @@ label {
 	float: left;
 	padding-left: 100px;
 	padding-top: 64px;
-	
+
 }
 
 
