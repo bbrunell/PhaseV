@@ -124,6 +124,15 @@ label {
 	border-bottom: solid 1px #d4d7d9;
 }
 
+#calendar{
+	margin: 0 auto;
+	margin-top: 3em;
+	padding: 1em;
+	position: absolute;
+	left: 150px;
+}
+
+
 .overflow-hidden{
 	display: flex;
 	overflow: hidden;
@@ -143,7 +152,7 @@ label {
 }
 .boxItemContent{
 	margin: 0.75em 1em;
-	
+
 }
 .boxItemBottom{
 	margin-bottom: 3em;
@@ -154,7 +163,7 @@ label {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr 2fr;
     gap: .7rem;
-	
+
 .myGradesTitle {
 		text-align: left;
 		font-size: 20pt;
