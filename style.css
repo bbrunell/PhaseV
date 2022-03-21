@@ -82,6 +82,20 @@ label {
 #menuItems{
 	float: left;
 }
+
+#MyGradesBar{
+		float:left;
+		margin-right: 10pt;
+		font-size: 25pt;
+		color:white;
+		padding-top: 12pt;
+		padding-left: 16pt;
+		padding-bottom: 12pt;
+		width: 100%;
+		
+		
+}
+
 .menuItem{
 	margin-right: 10pt;
 	font-size: 14pt;
@@ -197,9 +211,70 @@ label {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr 2fr;
     gap: .7rem;
+}
 
-.myGradesTitle {
+#myGradesCourse {
 		text-align: left;
-		font-size: 20pt;
+		line-height:  1.8em;
+		background-size: 10px 20px;
+}
+
+.myGradesCourseLeft {
+	float: left;
+	width: 100%;
+}
+
+.myGradesCourseRight {
+	float:right;
+	width: 49%;
+	
+}
+
+.courseGrade {
+	background-color: #a1a1a1;
+	font-size: 15pt;
+	width: 49%;
+	padding-left: 20pt;
+}
+
+.courseTitle {
+	width: 50%;
+	height: 145px;
+	color: white;
+	font-size: 20pt;
+	padding-left: 20pt;
+	background-color: #262626;
+	overflow: hidden;
+	line-height: 75px;
+	
+}
+.courseInstructor {
+	width: 49%;
+	height: 115px;
+	color: white;
+	font-size: 15pt;
+	padding-left: 20pt;
+	background-color: #262626;
+	overflow: hidden;
+	line-height: 20px;
+	
+}
+
+
+.displayGradeInfo {
+	background-color: #262626;
+	border-radius: 2px;
+	font-size: 10pt;
+	color: white;
+	float: right;
+	text-align: center;
+	width: 95px;
+	height: 100px; 
+	margin-right: 10px;
+	margin-bottom: 0px;
+	padding-right: 3pt;
+
+	
+
 
 }
