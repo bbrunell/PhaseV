@@ -42,6 +42,17 @@ input[type="button"]{
 	width: 95px;
 
 }
+input[type="Syllabus"]{
+	background-color: #b8b8b8;
+	border-radius: 2px;
+	font-size: 14pt;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	width: 250px;
+	height: 35px;
+
+}
 input[type="reset"]{
 	grid-column: 2;
 	grid-row: 2;
