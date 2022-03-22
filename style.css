@@ -42,6 +42,7 @@ input[type="button"]{
 	width: 95px;
 
 }
+
 input[type="Syllabus"]{
 	background-color: #b8b8b8;
 	border-radius: 2px;
@@ -231,25 +232,16 @@ label {
 }
 
 .myGradesCourseLeft {
-	float: left;
-	width: 100%;
+	width: 125%;
 }
 
 .myGradesCourseRight {
-	float:right;
-	width: 49%;
-	
+	width: 85%;
 }
 
-.courseGrade {
-	background-color: #a1a1a1;
-	font-size: 15pt;
-	width: 49%;
-	padding-left: 20pt;
-}
 
-.courseTitle {
-	width: 50%;
+#courseTitle {
+	width: 85%;
 	height: 145px;
 	color: white;
 	font-size: 20pt;
@@ -259,8 +251,8 @@ label {
 	line-height: 75px;
 	
 }
-.courseInstructor {
-	width: 49%;
+#courseInstructor {
+	width: 85%;
 	height: 115px;
 	color: white;
 	font-size: 15pt;
@@ -272,20 +264,48 @@ label {
 }
 
 
-.displayGradeInfo {
+#displayGradeInfo {
 	background-color: #262626;
 	border-radius: 2px;
-	font-size: 10pt;
+	font-size: 12pt;
 	color: white;
 	float: right;
-	text-align: center;
-	width: 95px;
-	height: 100px; 
+	vetical-align: center;
+	width: 175px;
+	height: 45px; 
 	margin-right: 10px;
-	margin-bottom: 0px;
-	padding-right: 3pt;
-
+	margin-top: 20px;
 	
+}
 
+#myGradesSection {
+	padding: 3px;
+	flex-grow: 1;
+	display:flex;
+	flex-direction: row;
+}
 
+#gradedItem {
+	width: 100%;
+	height: 75px;
+	background-color: #a1a1a1;
+	font-size: 15pt;
+	padding-left: 50px;
+	padding-right: 25px;
+	padding-top: 20px;
+	margin-left:  -100pt;
+	margin-bottom: 5pt;
+	border: 2px solid #a1a1a1;
+	border-radius: 15px;
+	line-height: 30px;
+}
+
+#comment {
+	background-color: #ed1527;
+	border-radius: 2px;
+	font-size: 12pt;
+	color: white;
+	text-align: center;
+	width: 145px;
+	border-radius: 5px;
 }
