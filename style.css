@@ -1,0 +1,314 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	background-color: #3b3b3b;
+}
+a:visited{
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #b8b8b8;
+}
+input {
+  all: unset;
+}
+input[type="text"]{
+	border: solid 1px #d4d7d9;
+	padding: 5pt;
+	border-radius: 3px;
+}
+::placeholder {
+  color: #d4d7d9;
+}
+input[type="submit"]{
+	background-color: #b8b8b8;
+	padding: 0.6em;
+	border-radius: 3px;
+	font-size: 10pt;
+	width: 50px;
+	text-align: center;
+}
+input[type="button"]{
+	background-color: #b8b8b8;
+	padding: 7pt;
+	border-radius: 2px;
+	font-size: 12pt;
+	text-align: center;
+	padding-left: 0px;
+	width: 95px;
+	margin: 1em 0;
+}
+
+input[type="Syllabus"]{
+	background-color: #b8b8b8;
+	border-radius: 2px;
+	font-size: 14pt;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	width: 250px;
+	height: 35px;
+
+}
+input[type="reset"]{
+	grid-column: 2;
+	grid-row: 2;
+}
+
+label {
+		font-size: .8rem;
+		justify-self: end;
+}
+
+#topBar{
+}
+#nameBar{
+	display: block;
+	color: white;
+	background-color: black;
+	overflow: hidden;
+	padding: 15pt;
+}
+
+#logo{
+	width: 500px;
+}
+
+#logoBar{
+	color: white;
+	background-color: #00274c;
+	overflow: hidden;
+	padding: 10pt;
+}
+
+#menu{
+	color: white;
+	background-color: #787878;
+	padding: 20pt;
+	overflow: hidden;
+}
+#menuItems{
+	float: left;
+}
+
+#MyGradesBar{
+		float:left;
+		margin-right: 10pt;
+		font-size: 25pt;
+		color:white;
+		padding-top: 12pt;
+		padding-left: 16pt;
+		padding-bottom: 12pt;
+		width: 100%;
+}
+
+.menuItem{
+	margin-right: 10pt;
+	font-size: 14pt;
+}
+.notification{
+	background-color: #ed1527;
+	border-radius: 5px;
+	padding: 3pt;
+	font-size: 8pt;
+	margin-left: 8pt;
+}
+#searchBar{
+	float: right;
+}
+
+#content{
+	width: 900px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding: 1em;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    color: white;
+}
+#contentBox{
+	background-color: #262626;
+	padding: 2em;
+	border-radius: 5px;
+		-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.contentBox{
+	background-color: #262626;
+	padding: 2em;
+	border-radius: 5px;
+	margin-top: 1em;
+	-moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+#MyCourses{
+	line-height: 200%;
+}
+#contentTitle{
+	font-size: 18pt;
+	font-weight: bold;
+	margin-bottom: 0.75em;
+	padding-bottom: 0.25em;
+	border-bottom: solid 1px #d4d7d9;
+}
+
+#googlecalendar{
+	margin: 0 auto;
+	margin-top: 3em;
+	padding: 1em;
+	position: absolute;
+	left: 10px;
+}
+
+#addevent{
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 4em;
+	padding: 1em;
+	position: absolute;
+	left: 1150px;
+}
+
+#upcomingEvent{
+	color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 3em;
+	padding: 1em;
+	position: absolute;
+	left: 835px;
+	width: 475px;
+}
+#updates{
+	float: left;
+	padding-left: 250px;
+	color: #FFFFFF;
+}
+
+.overflow-hidden{
+	display: flex;
+	overflow: hidden;
+}
+.splitLeft{
+	float: left;
+	width: 49%;
+}
+.splitRight{
+	float: right;
+	width: 49%;
+}
+
+.boxItemTitle{
+	font-size: 14pt;
+	font-weight: bold;
+}
+.boxItemContent{
+	margin: 0.75em 1em;
+
+}
+.boxItemBottom{
+	margin-bottom: 3em;
+}
+
+#profile{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	float: left;
+}
+#myGradesCourse {
+		display: flex;
+		flex-wrap: wrap;
+  	justify-content: space-between;
+		width: 100%;
+		height: auto;
+		background-color: #262626;
+		padding: 1.5em 2em;
+		border-radius: 3px;
+		box-sizing: border-box;
+		border-bottom: solid 1px #a1a1a1;
+}
+#myGradesCourse:hover{
+	background-color: #a1a1a1;
+}
+#myGradesSection {
+	width: 100%;
+	height: auto;
+	margin-bottom: 2em;
+}
+.myGradesCourseLeft {
+	width: 50%;
+	float: left;
+}
+
+.myGradesCourseRight {
+	width: 49.9%;
+	float: right;
+}
+#courseTitle {
+	font-size: 20pt;
+}
+#courseInstructor {
+	color: white;
+	font-size: 15pt;
+}
+.courseInfo{
+}
+.totalGrade{
+	text-align: center;
+	color: white;
+	background-color: #262626;
+	padding: 0.5em;
+	border-radius: 3px;
+	margin-top: 1em;
+	width: 100px;
+	font-size: 12pt;
+}
+
+#gradedItem {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-between;
+	width: 100%;
+	height: auto;
+	background-color: #a1a1a1;
+	font-size: 15pt;
+	border-bottom: solid 1px #262626;
+	border-radius: 5px;
+	padding: 1em;
+	box-sizing: border-box;
+}
+.gradedDate{
+	font-size: 11pt;
+	margin: 1em 0;
+}
+#comment {
+	width: 100px;
+	text-align: center;
+	color: white;
+	background-color: #ed1527;
+	border-radius: 3px;
+	font-size: 12pt;
+	padding: 0.25em;
+	margin-top: 0.5em;
+}
+
+.dueDate{
+	background-color: #3b3b3b;
+	padding: 1em;
+	border-radius: 3px;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-between;
+}
